@@ -1,0 +1,31 @@
+{
+  "description": "",
+  "manifest_version": 1,
+  "name": "",
+  "version": "1.0",
+  "homepage_url": "",
+  "icons": {
+    "48": "assets/"
+  },
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "assets/",
+    "theme_icons": [
+      {
+        "light": "assets/",
+        "dark": "assets/",
+        "size": 32
+      }
+    ],
+    "default_title": "Beastify",
+    "default_popup": "popup/popup.html"
+  },
+
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ]
+}
